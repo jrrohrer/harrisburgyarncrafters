@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #CBDEEC;
+  font-family: Montserrat, sans-serif;
+}
+
+/*navigation styling*/
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1C0221;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+nav li a:hover {
+  background-color: #4A7C59;
+}
+
+/* Content Styles */
+.banner {
+  background-image: url(https://images.pexels.com/photos/1487692/pexels-photo-1487692.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
+  text-align: center;
+}
+
+.banner h1 {
+  color: white;
+  font-size: 4rem;
+  font-family: Lobster, cursive;
+}
+
+.about {
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+h2 {
+  font-family: Lobster, cursive;
+  font-size: 3rem;
+}
+
+.contact {
+  padding-right: 10%;
+  padding-left: 10%;
+  text-align: center;
+}
+
+.contact img {
+  width: 75px;
+  height: 75px;
+  display: inline-block;
+  padding: 10%;
+}
+
+.map {
+  text-align: center;
+}
+
+footer {
+  background-color: #1C0221;
+  color: white;
+  padding: 5%;
+}
+
+footer p {
+  display: inline;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  float: right;
+  padding: 5px;
+}
+
+footer a:hover {
+  background-color: #4A7C59;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  nav li{
+    float: none;
+  }
+  .banner h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    1rem;
+  }
+  iframe {
+    width:300px;
+    height: 225px;
+  }
+}
